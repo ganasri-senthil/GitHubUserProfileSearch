@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIHUB PORTFOLIO SEARCH</title>
+    <link rel="icon" type="ico" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body id="myBody">
+    <!-- Light/ Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+   
+    <!-- home section-->
+    <div class="title-group">
+        <h2><b>GitSearch</b></h2>
+        <h2> 
+           Find someone on github</span></h2>
+    </div>
+    <div class="search_container">
+      <form action="" class="form" id="theform">
+          <input type="text" id="searchuser" spellcheck="false" required>
+          <button id="submit">
+            <i class="fas fa-search"></i>
+        </button>
+      </form>
+   
+  </div>
+  <br>
+  </br>
+  <div class="container" id="result">
+    <div class="left">
+        <img src="" alt="" id="pfp">
+    </div>
+    <div class="right">
+        <h1 id="name"></h1>
+        <a href="" id="username-url" target="_blank"><h4 id="username"></h4></a>
+        <p id="bio"></p>
+        <div class="main">
+            <div class="one">
+                <h4>Followers</h4>
+                <h5 id="follower"></h5>
+            </div>
+            <div class="two">
+                <h4>Following</h4>
+                <h5 id="following"></h5>
+            </div>
+            <div class="three">
+                <h4>Repositories</h4>
+                <h5 id="repo"></h5>
+            </div>
+        </div>
+        <div class="info">
+            <div class="top">
+                <div class="adress">
+                    <i class="fa-solid fa-location-dot lower-icon"></i>
+                    <p id="location"></p>
+                </div>
+                <div class="adress adress2">
+                    <i class="fa-solid fa-link lower-icon"></i>
+                    <a href="" id="website-url" target="_blank"><p id="website"></p></a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="adress">
+                    <i class="fa-brands fa-square-twitter lower-icon"></i>
+                    <a href="" id="twitter-url" target="_blank"><p id="twitter"></p></a>
+                </div>
+                <div class="adress adress2">
+                    <i class="fa-regular fa-building lower-icon"></i>
+                    <p id="organization"></p>
+                </div>
+            </div>
+        </div>
+        <div class="join">
+            Join date:&ThickSpace;<p id="joindate"></p>
+        </div>
+    </div>
+</div>
+   
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
